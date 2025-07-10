@@ -10,8 +10,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-
-  /* Gradient animation */
   background: linear-gradient(-45deg, #1a2a6c, #b21f1f, #fdbb2d, #00c9ff);
   background-size: 600% 600%;
   animation: gradientBG 20s ease infinite;
@@ -93,7 +91,8 @@ h1 {
   background-color: rgba(255, 255, 255, 0.4);
 }
 
-#next-btn {
+#next-btn,
+#restart-btn {
   padding: 12px 24px;
   background-color: #ffffff;
   color: #1a1a1a;
@@ -104,9 +103,11 @@ h1 {
   font-weight: bold;
   transition: all 0.3s ease;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin: 5px;
 }
 
-#next-btn:hover {
+#next-btn:hover,
+#restart-btn:hover {
   background-color: #e0e0e0;
   transform: scale(1.05);
 }
